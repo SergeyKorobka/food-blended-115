@@ -1,0 +1,48 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fefefe;
+  font-size: 16px;
+  color: #2c2c2c;
+}
+
+/* reset */
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* common */
+
+.main-btn {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  background-color: #bbf330;
+  cursor: pointer;
+}
+
+.main-btn:hover,
+.main-btn:focus {
+  background-color: #ffe450;
+}
+
+/* header */
+
+.nav-link {
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  font-weight: 700;
+  text-decoration: underline;
+  color: #bbf330;
+}
